@@ -2,6 +2,7 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://luke-john.github.io/lca-schedule",
   "dependencies": {
     "@types/react-router-dom": "^4.2.3",
     "date-fns": "^1.29.0",
