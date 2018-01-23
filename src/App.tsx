@@ -1,10 +1,15 @@
 import * as React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 
-import { Schedule } from './components/Schedule'
+import { Page } from './components/Page'
 
 class App extends React.Component {
   render() {
-    return <Schedule />
+    return (
+      <Router>
+        <Page />
+      </Router>
+    )
   }
 }
 

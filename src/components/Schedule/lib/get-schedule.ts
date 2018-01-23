@@ -12,7 +12,7 @@ export const rooms = [
   'Collaborative Lecture Theatre CB11.00.405, Medium Lecture Theatre CB11.00.401',
 ]
 
-export type Room =
+export type RoomId =
   | 'Great Hall CB01.05.009'
   | 'Collaborative Lecture Theatre CB11.00.405, Great Hall CB01.05.009, Green Theatre CB07.02.25, Guthrie Theatre CB06.03.28, Medium Lecture Theatre CB11.00.401'
   | 'Large POD Room CB11.04.400'
@@ -47,8 +47,8 @@ export type Track =
 export type License = 'CC BY'
 
 export interface ScheduleItem {
-  room: string
-  rooms: Room[]
+  room: RoomId
+  rooms: RoomId[]
   start: string
   end: string
   duration: number
